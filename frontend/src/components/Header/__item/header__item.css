@@ -1,0 +1,10 @@
+.header__item {
+    width: 16px;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.header__item:last-of-type {
+    margin-bottom: 0;
+}

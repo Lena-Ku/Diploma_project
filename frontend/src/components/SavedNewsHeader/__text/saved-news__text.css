@@ -1,0 +1,23 @@
+.saved-news__text {
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(26, 27, 34, 0.5);
+    margin: 8px auto 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .saved-news__text {
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 24px 0 16px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .saved-news__text {
+        font-size: 18px;
+        line-height: 1.33;
+        margin: 40px 0 28px 104px;
+    }
+}

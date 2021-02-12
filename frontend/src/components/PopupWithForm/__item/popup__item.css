@@ -1,0 +1,18 @@
+.popup__item {
+    max-width: 358px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+
+.popup__item:active {
+    border: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.popup__item::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}

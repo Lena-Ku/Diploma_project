@@ -1,0 +1,26 @@
+.about__text {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #1A1B22;
+    margin-top: 0;
+}
+
+.about__text:last-of-type {
+    margin-bottom: 80px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about__text:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .about__text:last-of-type {
+        margin-bottom: 0;
+    }
+}

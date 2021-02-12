@@ -1,0 +1,13 @@
+.header__field {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) {
+    .header__field {
+       width: 90%;
+      } 
+    }

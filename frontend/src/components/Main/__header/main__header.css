@@ -1,0 +1,28 @@
+.main__header {
+    font-family: 'Roboto Slab', 'Arial', sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .main__header {
+    padding-top: 38px;
+    width: 51%;
+    margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main__header {
+    font-size: 60px;
+    line-height: 1.06;
+    padding-top: 80px;
+    width: 42%;
+    margin: auto;
+    font-weight: 400;
+    }
+}

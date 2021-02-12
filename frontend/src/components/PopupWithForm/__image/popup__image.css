@@ -1,0 +1,9 @@
+.popup__image {
+    margin: 50px auto 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .popup__image {
+        margin: 60px auto 32px;
+      } 
+    }

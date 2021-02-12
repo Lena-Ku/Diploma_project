@@ -1,0 +1,7 @@
+.card__theme {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}

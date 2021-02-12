@@ -1,0 +1,9 @@
+.popup__heading {
+  margin: 34px auto 22px;
+  width: 80%;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #1A1B22;
+}

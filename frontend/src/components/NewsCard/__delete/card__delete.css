@@ -1,0 +1,20 @@
+.card__delete {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../images/card__delete.svg);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card__delete:hover {
+    background-image: url(../../../images/card__delete-hover.svg);
+}
+
+.card__delete:hover + .card__delete-info {
+    display: flex;
+}

@@ -1,0 +1,25 @@
+@import url(./__input/searchForm__input.css);
+@import url(./__button/searchForm__button.css);
+
+.searchForm {
+  margin: 0 auto;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .searchForm {
+    width: 448px;
+    padding-bottom: 48px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searchForm {
+    width: 608px;
+    padding-bottom: 80px;
+  }
+}

@@ -1,0 +1,29 @@
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 80px;
+    align-items: center;
+    flex-direction: column;
+    width: 288px;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        width: 90%;
+        flex-direction: row;
+        height: 64px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        min-height: 80px;
+        flex-direction: row;
+    }
+}

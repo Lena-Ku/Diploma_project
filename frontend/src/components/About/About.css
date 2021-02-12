@@ -1,0 +1,25 @@
+@import url(./__photo/about__photo.css);
+@import url(./__header/about__header.css);
+@import url(./__text/about__text.css);
+@import url(./__info/about__info.css);
+
+.about {
+    padding-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 40px 0 60px;
+
+    } 
+  }
+
+@media screen and (min-width: 1024px) {
+    .about {
+        padding-top: 80px;
+    } 
+  }

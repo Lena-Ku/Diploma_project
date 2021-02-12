@@ -1,0 +1,19 @@
+.card__photo {
+    width: 288px;
+    height: 196px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .card__photo {
+        width: 224px;
+        height: 150px;
+      } 
+    }
+
+@media screen and (min-width: 1024px) {
+  .card__photo {
+    width: 400px;
+    height: 272px;
+  } 
+}

@@ -1,0 +1,17 @@
+@import url(./__text/saved-news__text.css);
+@import url(./__header/saved-news__header.css);
+@import url(./__key-words/saved-news__key-words.css);
+
+
+.saved-news {
+    width: 90%;
+    margin: auto;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .saved-news  {
+        width: 100%;
+        margin: 0;
+    }
+}

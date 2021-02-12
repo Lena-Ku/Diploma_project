@@ -1,0 +1,7 @@
+.navigation__link {
+    margin-right: 24px;
+}
+
+.navigation__link:last-of-type {
+    margin-right: 0;
+}

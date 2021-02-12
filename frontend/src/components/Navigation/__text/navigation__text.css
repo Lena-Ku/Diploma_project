@@ -1,0 +1,10 @@
+.navigation__text {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #1A1B22;
+    margin: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.card__info {
+    padding: 16px 16px 0;
+    height: 208px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .card__info {
+        height: 270px;
+    } 
+  }
+
+@media screen and (min-width: 1024px) {
+    .card__info {
+        padding: 20px 24px 0;
+        height: 260px;
+    } 
+  }

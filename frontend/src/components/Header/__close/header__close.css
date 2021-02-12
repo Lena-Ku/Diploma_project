@@ -1,0 +1,9 @@
+.header__close {
+    background-image: url(../../../images/header__close.svg);
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-position: center;
+    border: 0;
+   
+}

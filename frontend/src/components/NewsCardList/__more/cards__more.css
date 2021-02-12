@@ -1,0 +1,23 @@
+.cards__more {
+    width: 288px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+    border: 0;
+    margin: 0 auto 32px;
+}
+
+.cards__more:hover {
+    background: rgba(255, 255, 255, .9)
+}
+
+@media screen and (min-width: 1024px) {
+    .cards__more {
+    margin: 0 auto 80px;
+    height: 64px;
+    }
+}

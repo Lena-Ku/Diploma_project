@@ -1,0 +1,15 @@
+.no-news__text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.33;
+    color: #B6BCBF;
+    margin: 0 auto 80px;
+    max-width: 65%;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .no-news__text {
+        max-width: 24%;
+    }
+}
